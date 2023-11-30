@@ -7,5 +7,12 @@
 			<li><a href="https://chess-no-25.vercel.app">Stable</a></li>
 			<li><a href="https://chess-no-25-nightly.vercel.app">Nightly</a></li>
 		</ul>
+		<h2>Branch chooser</h2>
+		<p>If you want to choose the branch manually, use this. The branch chooser works only for branches that have a deployment available.</p>
+		<div>
+			<label for="branch-input">Enter branch name:</label>
+			<input type="text" value="master" id="branch-input" name="branch-input" />
+		</div>
+		<button onclick="window.location.href = `https://chess-no-25-git-${document.getElementById('branch-input').value}-romw314.vercel.app`;">Go</button>
 	</body>
 </html>
