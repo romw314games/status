@@ -1,0 +1,8 @@
+{
+	"rewrites": [
+		{ "source": "/chess-no-25", "destination": "/chess25.html" }
+	],
+	"redirects": [
+		{ "source": "/chess-no-25/active", "destination": "https://github.com/romw314games/status/wiki/Open-Chess-No.-25" }
+	]
+}
